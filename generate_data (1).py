@@ -40,6 +40,6 @@ for crop, (tmin, tmax, hmin, hmax, phmin, phmax, rmin, rmax) in crops.items():
         data.append(row)
 
 df = pd.DataFrame(data)
-df.to_csv("data/crop_full_data.csv", index=False)
+df.to_csv("data/file.csv", index=False)
 
 print("✅ Dataset generated with multiple crops (20 rows each)")
